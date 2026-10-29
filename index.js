@@ -4,7 +4,7 @@ const PORT=80;
 
 //Rota principal
 app.get('/', (req,res) => {
-    res.send('Olá, mundo com express');
+    res.send('Bem-vindo ao site da Marvel e DC!');
 });
 
 app.get('/marvel', (req, res) => {
